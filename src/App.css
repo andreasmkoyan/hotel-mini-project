@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: url(https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?cs=srgb&dl=pexels-thorsten-technoman-338504.jpg&fm=jpg);
+  background-size: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#main {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around
 }
 
-.App-link {
-  color: #61dafb;
+.form div{
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form input, 
+.form select,
+.form button{
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.form button {
+  background-color: #8A8A8A;
+  border: none;
+  font-size: 18px;
+}
+.red{
+  color: red;
+}
+
+#home{
+  display: flex;
+}
+
+#hotels img{
+  gap: 15px;
+  
+}
+
+#hotels {
+  color: rgb(237, 241, 246);
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.add{
+  color: rgb(237, 241, 246);
+  text-shadow: #FC0 1px 0 10px;
 }
